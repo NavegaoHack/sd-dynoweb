@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="file" name="" id="fileSelector" accept=".xml">
+
+    <div>
+        <h2>section: Engine</h2>
+        <br>
+        <p>capacity: <span id="engineCapacity">---</span></p>
+        <p>cilinders: <span id="engineCilinders">---</span></p>
+        <p>shape: <span id="engineShape">---</span></p>
+        <p>revs limiter: <span id="engineRevsLimiter">---</span></p>
+        <div style="border-bottom: 1px solid black;"></div>
+        <div style="display: grid; place-content: center;">
+            <div id="enginePowerDataPoints" style="transform: rotate(-90deg); display: inline-block;">
+
+            </div>
+        </div>
+        <a id="downloadConfig">downlad new config here!</a>
+    </div>
+    
+   
+    <script src="app.js">
+    </script>
+</body>
+</html>
